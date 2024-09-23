@@ -74,7 +74,7 @@ public class Person {
             return String.valueOf(age);
         }
         else {
-            return "Error, selected year is before the person's birth year; they were not born yet";
+            return "Error, selected year is before the person's birth year; they were not born yet\n";
         }
     }
 
